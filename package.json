@@ -1,0 +1,31 @@
+{
+  "name": "gauthdemoapp",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "vite dev",
+    "build": "vite build",
+    "preview": "vite preview",
+    "vercel-build": "npm run build"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.47.10",
+    "@sveltejs/adapter-static": "^3.0.8",
+    "@sveltejs/kit": "^2.15.1",
+    "@sveltejs/vite-plugin-svelte": "^5.0.3",
+    "svelte": "^5.16.1"
+  },
+  "type": "module",
+  "devDependencies": {
+    "@sveltejs/adapter-auto": "^3.3.1",
+    "@sveltejs/adapter-vercel": "^5.5.2",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.17"
+  },
+  "description": "A minimalistic project demonstrating google login with a sveltekit web app.  To run this project, first generate google credentials using https://developers.google.com/workspace/guides/create-credentials  Then update the .env file.  Now you are ready to go!",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
