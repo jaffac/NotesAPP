@@ -1,5 +1,7 @@
 # My Notes App 📝
 
+https://notesapp-8by.pages.dev/
+
 A sleek, dark-themed note-taking application built with SvelteKit and Supabase.
 
 ## 🌟 Features
